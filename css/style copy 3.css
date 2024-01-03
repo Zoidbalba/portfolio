@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  font-family: "Nunito",
+}
+
+.container {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(74, 81, 189);
+  float: left;
+  margin-left: 25px;
+  font-family: "Pacifico";
+}
+
+nav {
+  font-family: "Nunito";
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 10px 30px;
+}
+
+nav a {
+  color: rgb(41, 54, 237);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: rgb(80, 149, 189);
+  text-decoration: line-through;
+}
+
+header {
+  background: linear-gradient(180deg, #ffffff, #0f3372);
+  font-size: 25px;
+  padding: 15% 10%;
+}
+
+header h1 span {
+  color: rgb(74, 81, 189);
+  font-family: "Nunito";
+  font-style: normal;
+  font-size: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  color: rgb(160, 167, 255);
+}
+
+.work {
+  background: linear-gradient(180deg, #0f3372, #ffffff);
+}
+
+.work-items h2 {
+  font-size: 50px;
+  font-family: "Nunito";
+  color: #6b9bee
+}
+
+.work-items video {
+  border-radius: 30px;
+  width: 32em;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .social a {
+  margin: 0 20px;
+ }
+
+footer .svg-inline--fa {
+  color: #0f3372;
+  font-size: 65px;
+}
+
+footer .svg-inline--fa:hover {
+  color: rgb(80, 149, 189);
+}
+
+footer{
+  background: linear-gradient(180deg, #ffffff, #0f3372);
+  color: #0f3372;
+  font-family: "Nunito";
+}
+
+
+
+

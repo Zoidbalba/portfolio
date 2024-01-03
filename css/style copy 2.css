@@ -1,0 +1,156 @@
+body {
+  text-align: center;
+  font-family: "Nunito",
+}
+
+
+.container {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(74, 81, 189);
+  float: left;
+  margin-left: 25px;
+  font-family: "Pacifico";
+}
+
+nav {
+  font-family: "Nunito";
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 10px 30px;
+}
+
+nav a {
+  color: rgb(41, 54, 237);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: rgb(80, 149, 189);
+  text-decoration: line-through;
+}
+
+img{
+  margin-top: 70px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255)55, 255, 255);
+}
+
+header {
+  background: linear-gradient(180deg, #ffffff, #0f3372);
+  font-size: 25px;
+  padding: 15% 10%;
+}
+
+header h1 span {
+  color: rgb(74, 81, 189);
+  font-family: "Nunito";
+  font-style: normal;
+  font-size: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  color: rgb(160, 167, 255);
+}
+
+.about {
+  background: linear-gradient(180deg,  #0f3372, rgb(254, 254, 254));
+  font-family: "Nunito";
+  font-size: 40px;
+  padding: 15% 10%;
+}
+
+.about p{
+  font-family: "Nunito";
+  font-size: 30px;
+  color: rgb(160, 167, 255);
+}
+
+.skills img{
+  border-radius: 15px;
+  margin: 20px 20px;
+  width: 18em;
+  height: 15em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills {
+  background: linear-gradient(180deg, #0f3372, rgb(254, 254, 254) );
+}
+
+.skills h2 {
+  font-size: 50px;
+  font-family: "Nunito";
+}
+.container p{
+  font-family: "Nunito";
+}
+
+.work {
+  background: linear-gradient(180deg, #ffffff, #0f3372);
+}
+
+.work-items h2 {
+  font-size: 50px;
+  font-family: "Nunito";
+  color: #0f3372
+}
+
+.work-items video {
+  border-radius: 50px;
+  width: 20em;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .social a {
+  margin: 0 20px;
+ }
+
+footer .svg-inline--fa {
+  color: #0f3372;
+  font-size: 65px;
+}
+
+footer .svg-inline--fa:hover {
+  color: rgb(80, 149, 189);
+}
+
+footer{
+  background: linear-gradient(180deg, #0f3372, rgb(254, 254, 254) );
+  color: #0f3372;
+  font-family: "Nunito";
+}
+
+
+
+

@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  font-family: "Nunito",
+}
+
+.container {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(74, 81, 189);
+  float: left;
+  margin-left: 25px;
+  font-family: "Pacifico";
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+}
+nav {
+  font-family: "Nunito";
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 10px 30px;
+}
+
+nav a {
+  font-size: 30px;
+  font-family: "Nunito";
+  color: rgb(41, 54, 237);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: px;
+}
+
+nav a:hover {
+  color: rgb(80, 149, 189);
+  text-decoration: line-through;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 10px ; 
+}
+
+header {
+  background: linear-gradient(180deg, #ffffff, #0f3372);
+  font-size: 25px;
+  padding: 15% 10%;
+}
+
+h1{
+  font-family: "Nunito";
+  color: rgb(160, 167, 255);
+}
+
+header h1 span {
+  color: rgb(74, 81, 189);
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  font-size: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  color: rgb(160, 167, 255);
+}
+
+h2{
+  font-family: "Nunito";
+  font-style: normal;
+  color: rgb(160, 167, 255);
+}
